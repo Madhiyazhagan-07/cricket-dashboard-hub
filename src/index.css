@@ -6,49 +6,50 @@
 
 @layer base {
   :root {
-    --background: 248 250 252;
-    --foreground: 15 23 42;
+    --background: 251 250 255;
+    --foreground: 25 24 51;
 
     --card: 255 255 255;
-    --card-foreground: 15 23 42;
+    --card-foreground: 25 24 51;
 
     --popover: 255 255 255;
-    --popover-foreground: 15 23 42;
+    --popover-foreground: 25 24 51;
 
-    /* Cricket Green Theme */
-    --primary: 142 69% 28%;
+    /* Purple & Gold Theme */
+    --primary: 262 83% 45%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 142 48% 45%;
-    --primary-dark: 142 69% 20%;
+    --primary-light: 262 83% 65%;
+    --primary-dark: 262 83% 25%;
 
-    --secondary: 210 40% 96%;
-    --secondary-foreground: 15 23 42;
+    --secondary: 249 244 255;
+    --secondary-foreground: 25 24 51;
 
-    --muted: 248 250 252;
+    --muted: 249 244 255;
     --muted-foreground: 100 116 139;
 
-    --accent: 37 99% 60%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 45 93% 58%;
+    --accent-foreground: 25 24 51;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 226 232 240;
-    --input: 226 232 240;
-    --ring: 142 69% 28%;
+    --border: 236 231 245;
+    --input: 236 231 245;
+    --ring: 262 83% 45%;
 
-    /* Cricket Dashboard Specific Colors */
-    --cricket-field: 120 61% 34%;
-    --cricket-ball: 0 0% 100%;
-    --cricket-pitch: 39 85% 85%;
+    /* Purple & Gold Dashboard Specific Colors */
+    --royal-purple: 262 83% 35%;
+    --gold-accent: 45 93% 58%;
+    --premium-gold: 42 100% 68%;
     --success: 142 76% 36%;
-    --warning: 45 93% 47%;
+    --warning: 45 93% 58%;
     --info: 217 91% 60%;
 
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-light)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--primary-dark)), hsl(var(--cricket-field)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary-dark)), hsl(var(--royal-purple)));
     --gradient-card: linear-gradient(180deg, hsl(var(--card)), hsl(var(--muted)));
+    --gradient-gold: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--premium-gold)));
 
     /* Shadows */
     --shadow-card: 0 2px 8px -2px hsl(var(--primary) / 0.1);
@@ -60,61 +61,61 @@
     --radius: 0.5rem;
 
     --sidebar-background: 255 255 255;
-    --sidebar-foreground: 15 23 42;
-    --sidebar-primary: 142 69% 28%;
+    --sidebar-foreground: 25 24 51;
+    --sidebar-primary: 262 83% 45%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 248 250 252;
-    --sidebar-accent-foreground: 15 23 42;
-    --sidebar-border: 226 232 240;
-    --sidebar-ring: 142 69% 28%;
+    --sidebar-accent: 249 244 255;
+    --sidebar-accent-foreground: 25 24 51;
+    --sidebar-border: 236 231 245;
+    --sidebar-ring: 262 83% 45%;
   }
 
   .dark {
-    --background: 15 23 42;
-    --foreground: 248 250 252;
+    --background: 25 24 51;
+    --foreground: 251 250 255;
 
-    --card: 30 41 59;
-    --card-foreground: 248 250 252;
+    --card: 37 35 74;
+    --card-foreground: 251 250 255;
 
-    --popover: 30 41 59;
-    --popover-foreground: 248 250 252;
+    --popover: 37 35 74;
+    --popover-foreground: 251 250 255;
 
-    --primary: 142 69% 35%;
+    --primary: 262 83% 55%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 142 48% 50%;
-    --primary-dark: 142 69% 25%;
+    --primary-light: 262 83% 75%;
+    --primary-dark: 262 83% 35%;
 
-    --secondary: 51 65 85;
-    --secondary-foreground: 15 23 42;
+    --secondary: 37 35 74;
+    --secondary-foreground: 251 250 255;
 
-    --muted: 51 65 85;
+    --muted: 37 35 74;
     --muted-foreground: 148 163 184;
 
-    --accent: 37 99% 65%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 45 93% 68%;
+    --accent-foreground: 25 24 51;
 
     --destructive: 0 84% 65%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 51 65 85;
-    --input: 51 65 85;
-    --ring: 142 69% 35%;
+    --border: 37 35 74;
+    --input: 37 35 74;
+    --ring: 262 83% 55%;
 
-    --cricket-field: 120 61% 40%;
-    --cricket-ball: 0 0% 95%;
-    --cricket-pitch: 39 85% 90%;
+    --royal-purple: 262 83% 45%;
+    --gold-accent: 45 93% 68%;
+    --premium-gold: 42 100% 78%;
     --success: 142 76% 40%;
-    --warning: 45 93% 52%;
+    --warning: 45 93% 68%;
     --info: 217 91% 65%;
 
-    --sidebar-background: 15 23 42;
-    --sidebar-foreground: 248 250 252;
-    --sidebar-primary: 142 69% 35%;
+    --sidebar-background: 25 24 51;
+    --sidebar-foreground: 251 250 255;
+    --sidebar-primary: 262 83% 55%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 30 41 59;
-    --sidebar-accent-foreground: 248 250 252;
-    --sidebar-border: 51 65 85;
-    --sidebar-ring: 142 69% 35%;
+    --sidebar-accent: 37 35 74;
+    --sidebar-accent-foreground: 251 250 255;
+    --sidebar-border: 37 35 74;
+    --sidebar-ring: 262 83% 55%;
   }
 }
 

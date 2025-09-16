@@ -25,10 +25,12 @@ export default {
           light: "hsl(var(--primary-light))",
           dark: "hsl(var(--primary-dark))",
         },
-        cricket: {
-          field: "hsl(var(--cricket-field))",
-          ball: "hsl(var(--cricket-ball))",
-          pitch: "hsl(var(--cricket-pitch))",
+        royal: {
+          purple: "hsl(var(--royal-purple))",
+        },
+        gold: {
+          accent: "hsl(var(--gold-accent))",
+          premium: "hsl(var(--premium-gold))",
         },
         success: "hsl(var(--success))",
         warning: "hsl(var(--warning))",
