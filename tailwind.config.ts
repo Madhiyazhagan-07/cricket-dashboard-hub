@@ -25,12 +25,12 @@ export default {
           light: "hsl(var(--primary-light))",
           dark: "hsl(var(--primary-dark))",
         },
-        royal: {
-          purple: "hsl(var(--royal-purple))",
+        teal: {
+          deep: "hsl(var(--teal-deep))",
         },
-        gold: {
-          accent: "hsl(var(--gold-accent))",
-          premium: "hsl(var(--premium-gold))",
+        coral: {
+          bright: "hsl(var(--coral-bright))",
+          light: "hsl(var(--coral-light))",
         },
         success: "hsl(var(--success))",
         warning: "hsl(var(--warning))",
